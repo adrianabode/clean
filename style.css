@@ -83,7 +83,8 @@
   input:focus,select:focus,textarea:focus{outline:none;border-color:var(--blue)}
   textarea{min-height:90px}
   .done{display:none;background:var(--mint);color:#174f3a;border-radius:12px;padding:18px;font-size:15px}
-  .done pre{white-space:pre-wrap;font-family:inherit;background:#fff;border-radius:8px;padding:10px;margin-top:10px;color:var(--ink)}
+  .err{display:none;background:#fdecec;color:#8a1f1f;border-radius:12px;padding:18px;font-size:15px}
+  .btn:disabled{opacity:.6;cursor:wait}
   @media(max-width:860px){.contact{grid-template-columns:1fr;padding:40px 24px}}
 
   footer{padding:40px 0;color:var(--muted);font-size:15px;border-top:1px solid var(--line);margin-top:90px}
