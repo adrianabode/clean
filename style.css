@@ -91,3 +91,39 @@
   footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:16px}
   .sticky-call{display:none}
   @media(max-width:640px){.sticky-call{display:block;position:fixed;bottom:0;left:0;right:0;background:var(--blue);color:#fff;text-align:center;padding:16px;font-weight:800;text-decoration:none;z-index:20}footer{padding-bottom:80px}}
+
+  /* Mobile refinements */
+  select{background:#fff;color:var(--ink)}
+  .brand{white-space:nowrap}
+  @media(max-width:640px){
+    body{font-size:16px}
+    .wrap{padding:0 18px}
+    .nav{height:62px}
+    .brand{font-size:17px;gap:8px}
+    .brand-dot{width:30px;height:30px}
+    .nav ul{display:none}
+    .hero{padding:44px 0 24px}
+    .hero h1{font-size:38px;margin:16px auto 16px}
+    .hero p{font-size:17px;margin-bottom:26px}
+    .hero .ctas{flex-direction:column;align-items:stretch;max-width:320px;margin:0 auto}
+    .bubbles{margin-top:36px;gap:12px}
+    .bubble{padding:16px}
+    section{padding:56px 0}
+    .head{margin-bottom:32px}
+    .head p{font-size:16px}
+    .card{grid-template-columns:1fr;gap:14px;padding:24px}
+    .card .ic{width:46px;height:46px}
+    .band{padding:32px 22px;border-radius:22px;gap:24px}
+    .band-list div{padding:14px 16px}
+    .area-box{gap:28px}
+    .towns{gap:10px}
+    .towns div{padding:12px 14px;font-size:15px}
+    .faq summary{font-size:17px;gap:12px}
+    .faq details{padding:18px 0}
+    .contact{padding:30px 18px;border-radius:22px;gap:26px}
+    .contact p{margin:10px 0 18px}
+    .phone{font-size:32px}
+    form{padding:22px 18px;border-radius:16px}
+    footer{margin-top:40px;padding:28px 0 84px}
+    footer .wrap{flex-direction:column;gap:8px}
+  }
